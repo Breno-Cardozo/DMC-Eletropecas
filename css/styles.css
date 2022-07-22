@@ -10,6 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+  font-family: 'Lexend Deca', sans-serif !important;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -41,7 +46,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 244, 121, 52;
+  --bs-primary-rgb: 24, 96, 170;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -473,6 +478,8 @@ output {
 
 iframe {
   border: 0;
+  height: 100%;
+  width: 100%;
 }
 
 summary {
@@ -603,6 +610,8 @@ progress {
   max-width: 100%;
   height: auto;
 }
+
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -3006,7 +3015,7 @@ textarea.form-control-lg {
       -ms-user-select: none;
           user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2.5px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
@@ -3032,7 +3041,7 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-color: #1860aa;
-  border-color: #fff;
+  border-color: #f47934;
 }
 .btn-primary:hover {
   color: #fff;
@@ -3241,8 +3250,8 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #1860aa;
+  border-color: #000;
 }
 .btn-dark:hover {
   color: #fff;
@@ -11328,6 +11337,16 @@ p {
   font-weight: 700;
 }
 
+.contats{
+  height: 6rem;
+  width: 6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
+
 .btn-social {
   height: 2.5rem;
   width: 2.5rem;
@@ -11358,7 +11377,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 4rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11383,7 +11402,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11396,7 +11415,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 2rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11546,7 +11565,7 @@ header.masthead .masthead-heading {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  background-color: #f47934;
 }
 .timeline > li {
   position: relative;
@@ -11588,9 +11607,9 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 4px solid rgb(255, 92, 0);
   border-radius: 100%;
-  background-color: #f47934;
+  background-color: #1860aa;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11707,7 +11726,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid rgba(24, 96, 170, 0.4);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -11780,5 +11799,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 .teste{
-  color: #1860aa;
+  color: #f47934;
 }
+
+.tittle{
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.tite{
+  font-family: 'Poppins', sans-serif;
+}
+
